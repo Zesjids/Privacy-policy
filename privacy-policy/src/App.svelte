@@ -33,7 +33,7 @@
       <ul class="space-y-2 sm:space-y-3 text-sm sm:text-base">
         <li class="flex items-start group">
           <span class="text-blue-400 mr-3 mt-1 group-hover:text-blue-300 transition-colors">→</span>
-          <a href="#section-1" class="text-gray-300 hover:text-white transition-colors">Data Controller Information</a>
+          <a href="#section-1" class="text-gray-300 hover:text-white transition-colors">Data Collection</a>
         </li>
         <li class="flex items-start group">
           <span class="text-blue-400 mr-3 mt-1 group-hover:text-blue-300 transition-colors">→</span>
@@ -101,7 +101,7 @@
     <!-- Section 1 -->
     <section id="section-1" class="mb-10 sm:mb-12 scroll-mt-8">
       <h2 class="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 border-l-4 border-blue-500 pl-4">
-        1. Data Controller Information
+        1. Data Collection
       </h2>
       <div class="bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 sm:p-6 border border-gray-700/50">
         <ul class="space-y-2 sm:space-y-3 text-sm sm:text-base text-gray-300">
@@ -133,9 +133,9 @@
           </h3>
           <p class="text-sm sm:text-base text-gray-300 leading-relaxed space-y-2">
             <span class="block"><strong class="text-white">Account Information:</strong> Name, email address, profile picture when you register</span>
-            <span class="block"><strong class="text-white">Social Media Credentials:</strong> OAuth tokens from X/Twitter, Instagram, LinkedIn, YouTube (encrypted and stored securely)</span>
+            <span class="block"><strong class="text-white">Social Media Credentials:</strong> OAuth tokens from X/Twitter, Instagram, LinkedIn (encrypted and stored securely)</span>
             <span class="block"><strong class="text-white">Content Data:</strong> Posts you input for comment generation, brand voice preferences</span>
-            <span class="block"><strong class="text-white">Payment Information:</strong> If applicable, processed securely through our payment providers (Stripe/PayPal)</span>
+            <span class="block"><strong class="text-white">Payment Information:</strong> If applicable, processed securely through our payment providers (Stripe/Flutterwave)</span>
           </p>
         </div>
 
@@ -278,7 +278,7 @@
             </li>
             <li class="flex items-start">
               <span class="text-blue-400 mr-3 mt-1 flex-shrink-0">→</span>
-              <span><strong class="text-white">AI Service Providers:</strong> OpenAI/Anthropic for comment generation (data anonymized where possible)</span>
+              <span><strong class="text-white">AI Service Providers:</strong> OpenAI/Gemini for comment generation (data anonymized where possible)</span>
             </li>
             <li class="flex items-start">
               <span class="text-blue-400 mr-3 mt-1 flex-shrink-0">→</span>
@@ -403,10 +403,6 @@
             <li class="flex items-start">
               <span class="w-2 h-2 bg-blue-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
               <span>LinkedIn API</span>
-            </li>
-            <li class="flex items-start">
-              <span class="w-2 h-2 bg-blue-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
-              <span>YouTube Data API</span>
             </li>
           </ul>
         </div>
