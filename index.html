@@ -11,17 +11,17 @@
 
     <main class="max-h-screen w-full px-4 lg:px-16 py-6 bg-[url('/image/bg.jpg')] bg-cover bg-center bg-no-repeat shrink-0">
       <div class="min-h-screen w-full bg-black/50">
-        <header class="sticky top-4 bottom-6 flex justify-between mb-16">
-          <div class="sticky top-4 bottom-6 flex space-x-2 items-center inline-block">
+        <header class="flex justify-between mb-16">
+          <div class="flex space-x-2 items-center inline-block">
             <img class="max-h-12" alt="logo" src="/image/cravyn-logo.png">
             <p class="text-lg font-semibold">EngagePadi</p>
           </div>
 
           <div class="hidden justify-center space-x-8 md:flex">
             <div class=" text-[#FFFFFFCC] flex justify-center space-x-4">
-              <button>Features</button>
-              <button>Intelligence</button>
-              <button>Contact</button>
+              <button id="features-text">Features</button>
+              <button id="intelligence-text">Intelligence</button>
+              <button id="contact-text">Contact</button>
             </div>
 
             <button class="bg-gradient-to-r from-[#004E92] to[#50a7f2] px-6 py-2 rounded-2xl">Get started</button>
@@ -93,7 +93,7 @@
               <div class="px-4 mb-4 py-3 rounded-2xl bg-[#004E92]/30 inline-block">
                 <ion-icon class="text-3xl font-bold text-[#004E92]" name="file-tray-full-outline"></ion-icon>
               </div>
-              <p class="mb-4 text-lg font-semibold">One Inbox. Finally.</p>
+              <p id="features-div" class="mb-4 text-lg font-semibold">One Inbox. Finally.</p>
               <p class="mb-4 text-sm text-[#ffffffb3] max-w-sm">
                 All comments from all platforms in a single chronological feed. Filter by platform, date, keyword, or assigned team member. No more tabbing between four windows.
               </p>
@@ -159,7 +159,7 @@
               Intelligence Dashboard
             </button>
 
-            <h3 class="text-4xl md:text-5xl font-bold max-w-lg mb-6">
+            <h3 id="intelligence-div" class="text-4xl md:text-5xl font-bold max-w-lg mb-6">
               See every comment <span class="text-[#004E92]">In one place.</span>
             </h3>
 
@@ -533,7 +533,7 @@
             </div>
           </div>
 
-          <div class="flex flex-col gap-6 justify-center md:flex-row mb-32">
+          <div id="contact-div" class="flex flex-col gap-6 justify-center md:flex-row mb-32">
             <div class="px-8 py-8 bg-white/5 inline-block border border-white/5 rounded-3xl">
               <div class="px-3 py-3 rounded-2xl bg-[#004E92]/30 inline-block mb-4">
                 <ion-icon class="text-[#0077BE] font-bold text-2xl" name="mail-outline"></ion-icon>
@@ -643,6 +643,7 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="main.js"></script>
 
   </body>
 </html>
